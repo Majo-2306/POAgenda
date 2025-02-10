@@ -12,5 +12,10 @@ namespace POAgenda
             Contacto primerContacto = new Contacto("Mariajose", "6221194956");
             MessageBox.Show($"El telefono de  {primerContacto.Nombre} es : {primerContacto.Telefono}");
         }
+
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(TxtNombre.Text + " - " + TxtTelefono.Text);
+        }
     }
 }
