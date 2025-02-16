@@ -22,7 +22,7 @@ namespace POAgenda
             _contactos[_tope] = contacto;
             _tope++;
         }
-        //_contactos es mi arreglo, tenemos dos metodos uno para agregar y otro para regresarlos y imprimirlos
+        //_contactos es mi arreglo, tenemos dos metodos uno para agregar y otro para regresarlos y imprimirlos.
         public Contacto[] ObtenerContactos()
         {
             return _contactos;  
