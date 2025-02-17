@@ -93,6 +93,7 @@
             DgvContactos.RowHeadersWidth = 51;
             DgvContactos.Size = new Size(435, 188);
             DgvContactos.TabIndex = 3;
+            DgvContactos.CellContentClick += DgvContactos_CellContentClick;
             // 
             // Nombre
             // 
